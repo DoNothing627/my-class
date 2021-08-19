@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-class/static/css/main.25a330f5.chunk.css",
+    "main.js": "/my-class/static/js/main.8e3139e8.chunk.js",
+    "main.js.map": "/my-class/static/js/main.8e3139e8.chunk.js.map",
+    "runtime-main.js": "/my-class/static/js/runtime-main.ab33433e.js",
+    "runtime-main.js.map": "/my-class/static/js/runtime-main.ab33433e.js.map",
+    "static/js/2.a1fe3972.chunk.js": "/my-class/static/js/2.a1fe3972.chunk.js",
+    "static/js/2.a1fe3972.chunk.js.map": "/my-class/static/js/2.a1fe3972.chunk.js.map",
+    "static/js/3.f212375c.chunk.js": "/my-class/static/js/3.f212375c.chunk.js",
+    "static/js/3.f212375c.chunk.js.map": "/my-class/static/js/3.f212375c.chunk.js.map",
+    "index.html": "/my-class/index.html",
+    "static/css/main.25a330f5.chunk.css.map": "/my-class/static/css/main.25a330f5.chunk.css.map",
+    "static/js/2.a1fe3972.chunk.js.LICENSE.txt": "/my-class/static/js/2.a1fe3972.chunk.js.LICENSE.txt",
+    "static/media/Lemon-Regular.388ce7e7.ttf": "/my-class/static/media/Lemon-Regular.388ce7e7.ttf",
+    "static/media/index.css": "/my-class/static/media/SueEllenFrancisco-Regular.9653a91d.ttf",
+    "static/media/anh1.64aa320a.jpg": "/my-class/static/media/anh1.64aa320a.jpg",
+    "static/media/anh2.ec091d91.jpg": "/my-class/static/media/anh2.ec091d91.jpg",
+    "static/media/Letter.module.css": "/my-class/static/media/simplebackground.f5190aef.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab33433e.js",
+    "static/js/2.a1fe3972.chunk.js",
+    "static/css/main.25a330f5.chunk.css",
+    "static/js/main.8e3139e8.chunk.js"
+  ]
+}
