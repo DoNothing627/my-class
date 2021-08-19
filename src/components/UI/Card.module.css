@@ -1,0 +1,8 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(207, 26, 26, 0.2);
+    transition: 0.3s;
+    width: auto;
+    max-width: 1000px;
+    margin: 40px;
+    float: left;
+}
