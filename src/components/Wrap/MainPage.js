@@ -11,7 +11,7 @@ export default function MainPage(props) {
     return (
         <>
             <Letter />
-            <Button onClick={out}>Let's reminisce</Button>
+            <Button onClick={out}>Let's go</Button>
         </>
     );
 }

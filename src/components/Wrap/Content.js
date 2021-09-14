@@ -14,7 +14,7 @@ export default function Content() {
 
     return (
         <>
-            <h1>#Members</h1>
+            <h1 className="container">#Members</h1>
             {Members.map(element =>
                 <Member
                     id={element.id}
@@ -26,11 +26,13 @@ export default function Content() {
                     turnOn={() => setShow(0)}
                 />)
             }
+            <br></br>
             {
                 show != 0 && Memory.map(element =>
                     <Class />)
             }
 
+            <br></br>
             <End />
 
         </>

@@ -3,6 +3,11 @@ import './sass/scss/Class.css';
 
 
 export default function Class() {
+
+    const click = () => {
+        console.log('click');
+    }
+
     return (
         <>
 
@@ -11,7 +16,7 @@ export default function Class() {
             <link rel="stylesheet" href="./sass/scss/Class.module.css"></link>
             <br />
             <h1>#Moments</h1>
-            <div id="main" className="container">
+            <div id="main" className="container" onClick={click}>
                 <div id="gallery" className="row">
                     <div className="col-xs-4 gallery-item">
                         <div className="album">

@@ -1,9 +1,9 @@
 const Members = [
     {
         id: "0",
-        name: "NY An",
+        name: "Đào Xuân An",
         fb: "Peach An",
-        img: "https://scontent.fhph1-2.fna.fbcdn.net/v/t1.6435-9/106217515_2686235881619818_1061089286360364124_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=hci1eZQIvUwAX_ndalP&_nc_ht=scontent.fhph1-2.fna&oh=f5c916bfdc14d0cc61a7d8d82cdb40b5&oe=6143F358"
+        img: "./Memberimg/1.jpg"
     },
     {
         id: "0",

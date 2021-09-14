@@ -20,6 +20,7 @@ export default function Letter() {
     return (
         <>
             <img className={classes.anh1} src={anh1} />
+            <h2>We 're A5 K58</h2>
             <h1>1 chiếc website để nhớ về những ngày xưa cũ</h1>
             <h4>-From An to Tin K58 with love-</h4>
             <h1></h1>
@@ -29,6 +30,7 @@ export default function Letter() {
             <h1></h1>
             <img className={classes.anh2} src={anh2} />
             <h2>#Day {DateDiff.inDays(summarizing, today)}</h2>
+
             <h6></h6>
         </>
     );

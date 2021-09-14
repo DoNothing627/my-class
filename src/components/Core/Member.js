@@ -3,6 +3,9 @@ import Card from "../UI/Card";
 import Profiles from "../Wrap/data/Profiles";
 import Profile from "./Profile";
 import classes from './sass/css/Member.module.css';
+import anh from './Memberimg/1.jpg';
+
+
 
 console.log(Profiles);
 
@@ -18,6 +21,8 @@ export default function Member(props) {
         setOk(props.id);
         props.turnOn();
     }
+
+    console.log(props.img);
 
     return (
         <>
