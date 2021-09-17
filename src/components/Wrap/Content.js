@@ -3,7 +3,7 @@ import Members from './data/Members';
 import Memory from "./data/Memory";
 import Member from '../Core/Member';
 import Class from '../Core/Class';
-import End from "../Core/End";
+import Test from "../Core/Test";
 import './Content.module.css';
 
 console.log(Members);
@@ -31,10 +31,7 @@ export default function Content() {
                 show != 0 && Memory.map(element =>
                     <Class />)
             }
-
-            <br></br>
-            <End />
-
+            {/* <Test /> */}
         </>
     );
 }

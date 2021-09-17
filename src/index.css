@@ -3,7 +3,7 @@ body {
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
-  font-family: 'Sue Ellen Francisco', cursive;
+  /* font-family: 'Sue Ellen Francisco', cursive; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -15,23 +15,27 @@ body {
 h1{
   font-family: 'WindSong', cursive;
   font-size: 50px;
+  display: block;
 }
 h2{
   font-family: 'WindSong', cursive;
+  display: block;
 }
 h3{
   font-family: 'WindSong', cursive;
   font-size: 25px;
+  display: block;
 }
 h4{
   font-family: 'WindSong', cursive;
+  display: block;
 }
 p{
   font-family: 'WindSong', cursive;
 }
-@font-face {
+/* @font-face {
   font-family: "Sue Ellen Francisco";
   src: local("Sue Ellen Francisco"),
     url("./fonts/Sue_Ellen_Francisco/SueEllenFrancisco-Regular.ttf") format("truetype");
   font-weight: normal;
-}
+} */
