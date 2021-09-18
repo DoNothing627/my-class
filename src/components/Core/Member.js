@@ -32,7 +32,7 @@ export default function Member(props) {
             <Card>
                 <img className={classes.img} src={image[props.id]} alt="Avatar" onClick={turnOn} />
                 <div className={classes.container}>
-                    <h3><b>{props.name}</b></h3>
+                    <h4><b>{props.name}</b></h4>
                 </div>
             </Card>
             {/* <div className={styles.card}>
