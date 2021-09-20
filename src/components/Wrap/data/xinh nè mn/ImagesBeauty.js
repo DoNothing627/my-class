@@ -43,12 +43,13 @@ import img42 from './42.jpg';
 import img43 from './43.jpg';
 import img44 from './44.jpg';
 import img45 from './45.jpg';
+import img46 from './46.jpg';
 
 const imagesBeauty = [
     img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
     img11, img12, img13, img14, img15, img16, img17, img18, img19, img20,
     img21, img22, img23, img24, img25, img26, img27, img28, img29, img30,
     img31, img32, img33, img34, img35, img36, img37, img38, img39, img40,
-    img41, img42, img43, img44, img45
+    img41, img42, img43, img44, img45, img46
 ]
 export default imagesBeauty;

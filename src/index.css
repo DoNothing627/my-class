@@ -30,6 +30,11 @@ h4{
   font-family: 'WindSong', cursive;
   display: block;
 }
+h5{
+  font-family: 'WindSong', cursive;
+  display: block;
+  font-size: 15px;
+}
 p{
   font-family: 'WindSong', cursive;
 }

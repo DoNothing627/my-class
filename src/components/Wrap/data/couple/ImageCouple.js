@@ -23,7 +23,6 @@ import img22 from './22.jpg';
 import img23 from './23.jpg';
 import img24 from './24.jpg';
 import img25 from './25.jpg';
-import img26 from './26.jpg';
 import img27 from './27.jpg';
 import img28 from './28.jpg';
 import img29 from './29.jpg';
@@ -43,12 +42,18 @@ import img42 from './42.jpg';
 import img43 from './43.jpg';
 import img44 from './44.jpg';
 import img45 from './45.jpg';
+import img47 from './47.jpg';
+import img48 from './48.jpg';
+import img49 from './49.jpg';
+import img50 from './50.jpg';
+import img51 from './51.jpg';
+
 
 const imagesCouple = [
     img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
     img11, img12, img13, img14, img15, img16, img17, img18, img19, img20,
-    img21, img22, img23, img24, img25, img26, img27, img28, img29, img30,
+    img21, img22, img23, img24, img25, img27, img28, img29, img30,
     img31, img32, img33, img34, img35, img36, img37, img38, img39, img40,
-    img41, img42, img43, img44, img45
+    img41, img42, img43, img44, img45, img47, img48, img49, img50, img51
 ]
 export default imagesCouple;

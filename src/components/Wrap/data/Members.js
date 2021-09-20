@@ -3,7 +3,8 @@ const Members = [
         id: "0",
         name: "Đào Xuân An",
         fb: "Peach An",
-        born: "27/06/2001"
+        born: "27/06/2001",
+        quotes: "Đẹp trai nhì lớp"
     },
     {
         id: "1",
@@ -75,7 +76,8 @@ const Members = [
         id: "12",
         name: "Nguyễn Văn Hoàn",
         fb: "Nguyễn Văn Hoàn",
-        born: "30/09/2001"
+        born: "30/09/2001",
+        quotes: "Đẹp trai nhất lớp"
     },
     {
         id: "13",

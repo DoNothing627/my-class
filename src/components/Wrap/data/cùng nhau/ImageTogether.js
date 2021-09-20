@@ -14,7 +14,6 @@ import img13 from './13.jpg';
 import img14 from './14.jpg';
 import img15 from './15.jpg';
 import img16 from './16.jpg';
-import img17 from './17.jpg';
 import img18 from './18.jpg';
 import img19 from './19.jpg';
 import img20 from './20.jpg';
@@ -34,7 +33,7 @@ import img33 from './33.jpg';
 
 const imagesTogether = [
     img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
-    img11, img12, img13, img14, img15, img16, img17, img18, img19, img20,
+    img11, img12, img13, img14, img15, img16, img18, img19, img20,
     img21, img22, img23, img24, img25, img26, img27, img28, img29, img30,
     img31, img32, img33
 ]

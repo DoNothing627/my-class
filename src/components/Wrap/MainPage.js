@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import Letter from '../Core/Letter';
-import Test from "../Core/Test";
 import Button from "../UI/Button";
 
 export default function MainPage(props) {

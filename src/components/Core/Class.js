@@ -1,101 +1,97 @@
-import React from "react";
-import './sass/scss/Class.css';
-import tinhthan1 from '../Wrap/data/cùng nhau/9.jpg';
-import tinhthan2 from '../Wrap/data/cùng nhau/3.jpg';
-import tinhthan3 from '../Wrap/data/cùng nhau/6.jpg';
-import dale2 from '../Wrap/data/group/4.jpg';
-import dale1 from '../Wrap/data/group/11.jpg';
-import dale3 from '../Wrap/data/group/9.jpg';
-import couple1 from '../Wrap/data/couple/1.jpg';
-import couple2 from '../Wrap/data/couple/24.jpg';
-import couple3 from '../Wrap/data/couple/9.jpg';
-import animal1 from '../Wrap/data/lạc thú/3.jpg';
-import animal2 from '../Wrap/data/lạc thú/6.jpg';
-import animal3 from '../Wrap/data/lạc thú/9.jpg';
-import beauty1 from '../Wrap/data/xinh nè mn/5.jpg';
-import beauty2 from '../Wrap/data/xinh nè mn/2.jpg';
-import beauty3 from '../Wrap/data/xinh nè mn/21.jpg';
-import kiniem1 from '../Wrap/data/thứ giết chết chúng ta chính là kỉ niệm/15.jpg';
-import kiniem2 from '../Wrap/data/thứ giết chết chúng ta chính là kỉ niệm/69.jpg';
-import kiniem3 from '../Wrap/data/thứ giết chết chúng ta chính là kỉ niệm/79.jpg';
-import saunay1 from '../Wrap/data/chúng ta của sau này/10.jpg';
-import saunay2 from '../Wrap/data/chúng ta của sau này/18.jpg';
-import saunay3 from '../Wrap/data/chúng ta của sau này/30.jpg';
+import React, { useState } from "react";
+import './sass/css/Class.css';
+import Print from "./Print";
 
+import presentDay from '../Wrap/data/chúng ta của sau này/PresentDay';
+import couple from '../Wrap/data/couple/ImageCouple';
+import together from '../Wrap/data/cùng nhau/ImageTogether';
+import group from '../Wrap/data/group/ImagesGroup';
+import animal from '../Wrap/data/lạc thú/ImagesAnimal';
+import beauty from '../Wrap/data/xinh nè mn/ImagesBeauty';
+import memories from '../Wrap/data/thứ giết chết chúng ta chính là kỉ niệm/Memories';
+
+const Image = [
+    together, group, couple, animal, beauty, memories, presentDay
+]
+
+console.log(together.length)
 
 export default function Class() {
 
-    const click = () => {
-        console.log('click');
+    const [ok, setOk] = useState(7);
+
+    function onclick() {
+        setOk(7);
     }
 
     return (
         <>
 
+            {ok != 7 && <Print image={Image[ok]} id={0} onclick={onclick} />}
             <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-            <link rel="stylesheet" href="./sass/scss/Class.module.css"></link>
             <br />
             <h1>#Moments</h1>
-            <div id="main" className="container" onClick={click}>
+            <div id="main" className="container">
                 <div id="gallery" className="row">
-                    <div className="col-xs-4 gallery-item">
+                    <div className="col-xs-4 gallery-item" onClick={() => { setOk(0) }}>
                         <div className="album">
-                            <img src={tinhthan1} alt="" />
-                            <img src={tinhthan2} alt="" />
-                            <img src={tinhthan3} alt="" />
+                            <img src={together[8]} alt="" />
+                            <img src={together[2]} alt="" />
+                            <img src={together[5]} alt="" />
                         </div>
                         <p>Ấm áp tình thân</p>
                     </div>
-                    <div className="col-xs-4 gallery-item">
+                    <div className="col-xs-4 gallery-item" onClick={() => { setOk(1) }}>
                         <div className="album">
-                            <img src={dale1} alt="" />
-                            <img src={dale2} alt="" />
-                            <img src={dale3} alt="" />
+                            <img src={group[3]} alt="" />
+                            <img src={group[10]} alt="" />
+                            <img src={group[8]} alt="" />
                         </div>
-                        <p>Đá lẻ</p>
+                        <p>Chia bè kéo cánh :)))</p>
                     </div>
-                    <div className="col-xs-4 gallery-item">
+                    <div className="col-xs-4 gallery-item" onClick={() => { setOk(2) }}>
                         <div className="album">
-                            <img src={couple1} alt="" />
-                            <img src={couple2} alt="" />
-                            <img src={couple3} alt="" />
+                            <img src={couple[0]} alt="" />
+                            <img src={couple[23]} alt="" />
+                            <img src={couple[8]} alt="" />
                         </div>
                         <p>Đôi bạn cùng tiến</p>
                     </div>
-                    <div className="col-xs-4 gallery-item">
+                    <div className="col-xs-4 gallery-item" onClick={() => { setOk(3) }}>
                         <div className="album">
-                            <img src={animal1} alt="" />
-                            <img src={animal2} alt="" />
-                            <img src={animal3} alt="" />
+                            <img src={animal[1]} alt="" />
+                            <img src={animal[4]} alt="" />
+                            <img src={animal[7]} alt="" />
                         </div>
                         <p>Lạc thú</p>
                     </div>
-                    <div className="col-xs-4 gallery-item">
+                    <div className="col-xs-4 gallery-item" onClick={() => { setOk(4) }}>
                         <div className="album">
-                            <img src={beauty1} alt="" />
-                            <img src={beauty2} alt="" />
-                            <img src={beauty3} alt="" />
+                            <img src={beauty[4]} alt="" />
+                            <img src={beauty[1]} alt="" />
+                            <img src={beauty[20]} alt="" />
                         </div>
                         <p>Xinh nè các bạn</p>
                     </div>
-                    <div className="col-xs-4 gallery-item">
+                    <div className="col-xs-4 gallery-item" onClick={() => { setOk(5) }}>
                         <div className="album">
-                            <img src={kiniem1} alt="" />
-                            <img src={kiniem2} alt="" />
-                            <img src={kiniem3} alt="" />
+                            <img src={memories[23]} alt="" />
+                            <img src={memories[34]} alt="" />
+                            <img src={memories[5]} alt="" />
                         </div>
                         <p>Thứ giết chết chúng ta chính là kỉ niệm :(((</p>
                     </div>
-                    <div className="col-xs-4 gallery-item">
+                    <div className="col-xs-4 gallery-item" onClick={() => { setOk(6) }}>
                         <div className="album">
-                            <img src={saunay1} alt="" />
-                            <img src={saunay2} alt="" />
-                            <img src={saunay3} alt="" />
+                            <img src={presentDay[8]} alt="" />
+                            <img src={presentDay[37]} alt="" />
+                            <img src={presentDay[27]} alt="" />
                         </div>
                         <p>Chúng ta của sau này</p>
                     </div>
                 </div>
             </div>
+
         </>
     );
 }

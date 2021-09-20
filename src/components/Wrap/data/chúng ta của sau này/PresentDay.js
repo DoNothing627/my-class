@@ -5,13 +5,11 @@ import img4 from './4.jpg';
 import img5 from './5.jpg';
 import img6 from './6.jpg';
 import img7 from './7.jpg';
-import img8 from './8.jpg';
 import img9 from './9.jpg';
 import img10 from './10.jpg';
 import img11 from './11.jpg';
 import img12 from './12.jpg';
 import img13 from './13.jpg';
-import img14 from './14.jpg';
 import img15 from './15.jpg';
 import img16 from './16.jpg';
 import img17 from './17.jpg';
@@ -28,10 +26,40 @@ import img27 from './27.jpg';
 import img28 from './28.jpg';
 import img29 from './29.jpg';
 import img30 from './30.jpg';
+import img150 from './150.jpg';
+import img151 from './151.jpg';
+import img152 from './152.jpg';
+import img153 from './153.jpg';
+import img154 from './154.jpg';
+import img155 from './155.jpg';
+import img156 from './156.jpg';
+import img157 from './157.jpg';
+import img158 from './158.jpg';
+import img159 from './159.jpg';
+import img160 from './160.jpg';
+import img161 from './161.jpg';
+import img162 from './162.jpg';
+import img163 from './163.jpg';
+
 
 const imagesBeauty = [
-    img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
-    img11, img12, img13, img14, img15, img16, img17, img18, img19, img20,
-    img21, img22, img23, img24, img25, img26, img27, img28, img29, img30
+    img1, img2, img3, img4, img5, img6, img7, img9, img10,
+    img11, img12, img13, img15, img16, img17, img18, img19, img20,
+    img21, img22, img23, img24, img25, img26, img27, img28, img29, img30,
+    img150,
+    img151,
+    img152,
+    img153,
+    img154,
+    img155,
+    img156,
+    img157,
+    img158,
+    img159,
+    img160,
+    img161,
+    img162,
+    img163
+
 ]
 export default imagesBeauty;
