@@ -130,14 +130,14 @@ import img156 from './156.jpg';
 import img157 from './157.jpg';
 import img158 from './158.jpg';
 import img159 from './159.jpg';
-import img160 from './160.jpg';
+import img0 from './0.jpg';
 import img161 from './161.jpg';
 import img162 from './162.jpg';
 import img163 from './163.jpg';
 import img164 from './164.jpg';
 
 const imagesBeauty = [
-    img1, img2, img3, img4, img5, img8,
+    img0, img1, img2, img3, img4, img5, img8,
     img11, img13, img14, img15, img16, img17, img18, img19, img20,
     img21, img22, img23, img24, img25, img26, img27, img28, img29, img30,
     img32, img33, img35, img36, img37, img38, img39, img40,

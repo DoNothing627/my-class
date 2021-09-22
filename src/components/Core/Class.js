@@ -71,13 +71,13 @@ export default function Class() {
                             <img src={beauty[1]} alt="" />
                             <img src={beauty[20]} alt="" />
                         </div>
-                        <p>Xinhhh</p>
+                        <p>Cũng ra gì đấy =)))</p>
                     </div>
                     <div className="col-xs-4 gallery-item" onClick={() => { setOk(5) }}>
                         <div className="album">
-                            <img src={memories[60]} alt="" />
-                            <img src={memories[23]} alt="" />
-                            <img src={memories[5]} alt="" />
+                            <img src={memories[61]} alt="" />
+                            <img src={memories[24]} alt="" />
+                            <img src={memories[6]} alt="" />
                         </div>
                         <p>Một thời để nhớ</p>
                     </div>
