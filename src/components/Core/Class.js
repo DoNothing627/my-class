@@ -35,11 +35,11 @@ export default function Class() {
                 <div id="gallery" className="row">
                     <div className="col-xs-4 gallery-item" onClick={() => { setOk(0) }}>
                         <div className="album">
-                            <img src={together[8]} alt="" />
-                            <img src={together[2]} alt="" />
-                            <img src={together[5]} alt="" />
+                            <img src={together[9]} alt="" />
+                            <img src={together[3]} alt="" />
+                            <img src={together[6]} alt="" />
                         </div>
-                        <p>Ấm áp tình thân</p>
+                        <p>Tình thương mến thương</p>
                     </div>
                     <div className="col-xs-4 gallery-item" onClick={() => { setOk(1) }}>
                         <div className="album">
@@ -47,13 +47,13 @@ export default function Class() {
                             <img src={group[10]} alt="" />
                             <img src={group[8]} alt="" />
                         </div>
-                        <p>Chia bè kéo cánh :)))</p>
+                        <p>Bè phái =)))</p>
                     </div>
                     <div className="col-xs-4 gallery-item" onClick={() => { setOk(2) }}>
                         <div className="album">
-                            <img src={couple[0]} alt="" />
-                            <img src={couple[23]} alt="" />
-                            <img src={couple[8]} alt="" />
+                            <img src={couple[10]} alt="" />
+                            <img src={couple[22]} alt="" />
+                            <img src={couple[27]} alt="" />
                         </div>
                         <p>Đôi bạn cùng tiến</p>
                     </div>
@@ -71,21 +71,21 @@ export default function Class() {
                             <img src={beauty[1]} alt="" />
                             <img src={beauty[20]} alt="" />
                         </div>
-                        <p>Xinh nè các bạn</p>
+                        <p>Xinhhh</p>
                     </div>
                     <div className="col-xs-4 gallery-item" onClick={() => { setOk(5) }}>
                         <div className="album">
+                            <img src={memories[60]} alt="" />
                             <img src={memories[23]} alt="" />
-                            <img src={memories[34]} alt="" />
                             <img src={memories[5]} alt="" />
                         </div>
-                        <p>Thứ giết chết chúng ta chính là kỉ niệm :(((</p>
+                        <p>Một thời để nhớ</p>
                     </div>
                     <div className="col-xs-4 gallery-item" onClick={() => { setOk(6) }}>
                         <div className="album">
-                            <img src={presentDay[8]} alt="" />
-                            <img src={presentDay[37]} alt="" />
+                            <img src={presentDay[50]} alt="" />
                             <img src={presentDay[27]} alt="" />
+                            <img src={presentDay[8]} alt="" />
                         </div>
                         <p>Chúng ta của sau này</p>
                     </div>

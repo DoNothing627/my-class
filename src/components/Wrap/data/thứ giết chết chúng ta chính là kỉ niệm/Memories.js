@@ -3,11 +3,8 @@ import img2 from './2.jpg';
 import img3 from './3.jpg';
 import img4 from './4.jpg';
 import img5 from './5.jpg';
-import img7 from './7.jpg';
 import img8 from './8.jpg';
-import img9 from './9.jpg';
 import img11 from './11.jpg';
-import img12 from './12.jpg';
 import img13 from './13.jpg';
 import img14 from './14.jpg';
 import img15 from './15.jpg';
@@ -28,7 +25,6 @@ import img29 from './29.jpg';
 import img30 from './30.jpg';
 import img32 from './32.jpg';
 import img33 from './33.jpg';
-import img34 from './34.jpg';
 import img35 from './35.jpg';
 import img36 from './36.jpg';
 import img37 from './37.jpg';
@@ -69,7 +65,6 @@ import img72 from './72.jpg';
 import img73 from './73.jpg';
 import img74 from './74.jpg';
 import img75 from './75.jpg';
-import img76 from './76.jpg';
 import img77 from './77.jpg';
 import img78 from './78.jpg';
 import img79 from './79.jpg';
@@ -104,30 +99,87 @@ import img120 from './120.jpg';
 import img121 from './121.jpg';
 import img122 from './122.jpg';
 import img124 from './124.jpg';
-import img125 from './125.jpg';
 import img128 from './128.jpg';
 import img129 from './129.jpg';
 import img130 from './130.jpg';
 import img131 from './131.jpg';
 import img132 from './132.jpg';
 import img134 from './134.jpg';
+import img135 from './135.jpg';
+import img136 from './136.jpg';
+import img137 from './137.jpg';
+import img138 from './138.jpg';
+import img139 from './139.jpg';
+import img140 from './140.jpg';
+import img141 from './141.jpg';
+import img142 from './142.jpg';
+import img143 from './143.jpg';
+import img144 from './144.jpg';
+import img145 from './145.jpg';
+import img146 from './146.jpg';
+import img147 from './147.jpg';
+import img148 from './148.jpg';
+import img149 from './149.jpg';
+import img150 from './150.jpg';
+import img151 from './151.jpg';
+import img152 from './152.jpg';
+import img153 from './153.jpg';
+import img154 from './154.jpg';
+import img155 from './155.jpg';
+import img156 from './156.jpg';
+import img157 from './157.jpg';
+import img158 from './158.jpg';
+import img159 from './159.jpg';
+import img160 from './160.jpg';
+import img161 from './161.jpg';
+import img162 from './162.jpg';
+import img163 from './163.jpg';
+import img164 from './164.jpg';
 
 const imagesBeauty = [
-    img1, img2, img3, img4, img5, img7, img8, img9,
-    img11, img12, img13, img14, img15, img16, img17, img18, img19, img20,
+    img1, img2, img3, img4, img5, img8,
+    img11, img13, img14, img15, img16, img17, img18, img19, img20,
     img21, img22, img23, img24, img25, img26, img27, img28, img29, img30,
-    img32, img33, img34, img35, img36, img37, img38, img39, img40,
+    img32, img33, img35, img36, img37, img38, img39, img40,
     img41, img42, img43, img44, img45, img46, img47, img48, img49, img50,
     img51, img52, img53, img54, img55, img56, img57, img58, img59, img60,
     img61, img62, img63, img64, img65, img66, img67, img68, img69,
-    img71, img72, img73, img74, img75, img76, img77, img78, img79, img80,
+    img71, img72, img73, img74, img75, img77, img78, img79, img80,
     img81, img82, img83, img84, img85, img86, img87, img88, img89, img90,
     img91, img93, img94, img95, img96, img98, img99, img100,
     img101, img103, img104, img105, img107,
     img111, img114, img119, img120
-    , img121, img122, img124, img125, img128, img129, img130,
+    , img121, img122, img124, img128, img129, img130,
     img131,
     img132,
     img134,
+    img135,
+    img137,
+    img138,
+    img139,
+    img140,
+    img141,
+    img142,
+    img143,
+    img144,
+    img145,
+    img146,
+    img147,
+    img148,
+    img149,
+    img150,
+    img151,
+    img152,
+    img153,
+    img154,
+    img155,
+    img156,
+    img157,
+    img158,
+    img159,
+    img162,
+    img163,
+    img164,
+    img136
 ]
 export default imagesBeauty;

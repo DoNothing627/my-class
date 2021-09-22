@@ -1,6 +1,8 @@
 import classes from "./sass/css/Letter.module.css";
 import anh1 from "./anh1.jpg";
 import anh2 from "./anh2.jpg";
+import anh3 from "./anh3.jpg";
+
 
 export default function Letter() {
 
@@ -19,7 +21,7 @@ export default function Letter() {
 
     return (
         <>
-            <img className={classes.anh1} src={anh1} />
+            <img className={classes.anh1} src={anh3} />
             <h2>We 're A5 K58</h2>
             <h1>1 chiếc website để nhớ về những ngày xưa cũ</h1>
             <h4>-From An to Tin K58 with love-</h4>

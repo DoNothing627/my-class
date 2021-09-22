@@ -30,11 +30,43 @@ import img30 from './30.jpg';
 import img31 from './31.jpg';
 import img32 from './32.jpg';
 import img33 from './33.jpg';
+import img34 from './34.jpg';
+import img35 from './35.jpg';
+import img36 from './36.jpg';
+import img37 from './37.jpg';
+import img38 from './38.jpg';
+import img39 from './39.jpg';
+import img40 from './40.jpg';
+import img41 from './41.jpg';
+import img42 from './42.jpg';
+import img43 from './43.jpg';
+import img44 from './44.jpg';
+import img45 from './45.jpg';
+import img46 from './46.jpg';
+import img47 from './47.jpg';
+import img48 from './48.jpg';
+import img49 from './49.jpg';
+import final from './final.jpg';
+import imgch0 from './imgch0.jpg';
 
 const imagesTogether = [
-    img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
+    img44, imgch0, img45,
+    img46,
+    img47,
+    img48,
+    img49, img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
     img11, img12, img13, img14, img15, img16, img18, img19, img20,
     img21, img22, img23, img24, img25, img26, img27, img28, img29, img30,
-    img31, img32, img33
+    img31, img32, img33,
+    img34,
+    img35,
+    img36,
+    img37,
+    img38,
+    img39,
+    img40,
+    img41,
+    img42,
+    img43, final
 ]
 export default imagesTogether;
